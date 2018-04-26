@@ -13,6 +13,9 @@
 		CAB32212209230CF008BA8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB32211209230CF008BA8A0 /* Assets.xcassets */; };
 		CAB32215209230CF008BA8A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB32213209230CF008BA8A0 /* LaunchScreen.storyboard */; };
 		CAB32218209230CF008BA8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB32217209230CF008BA8A0 /* main.m */; };
+		CAB3222020923C6F008BA8A0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB3221F20923C6F008BA8A0 /* Photo.m */; };
+		CAB3222320924048008BA8A0 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB3222220924048008BA8A0 /* PhotoCell.m */; };
+		CAB3222620924B5E008BA8A0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB3222520924B5E008BA8A0 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		CAB32214209230CF008BA8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB32216209230CF008BA8A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB32217209230CF008BA8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAB3221E20923C6F008BA8A0 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		CAB3221F20923C6F008BA8A0 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		CAB3222120924048008BA8A0 /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		CAB3222220924048008BA8A0 /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		CAB3222420924B5E008BA8A0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CAB3222520924B5E008BA8A0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				CAB32213209230CF008BA8A0 /* LaunchScreen.storyboard */,
 				CAB32216209230CF008BA8A0 /* Info.plist */,
 				CAB32217209230CF008BA8A0 /* main.m */,
+				CAB3221E20923C6F008BA8A0 /* Photo.h */,
+				CAB3221F20923C6F008BA8A0 /* Photo.m */,
+				CAB3222120924048008BA8A0 /* PhotoCell.h */,
+				CAB3222220924048008BA8A0 /* PhotoCell.m */,
+				CAB3222420924B5E008BA8A0 /* DetailViewController.h */,
+				CAB3222520924B5E008BA8A0 /* DetailViewController.m */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -142,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB3222020923C6F008BA8A0 /* Photo.m in Sources */,
+				CAB3222320924048008BA8A0 /* PhotoCell.m in Sources */,
 				CAB3220D209230CF008BA8A0 /* ViewController.m in Sources */,
 				CAB32218209230CF008BA8A0 /* main.m in Sources */,
 				CAB3220A209230CF008BA8A0 /* AppDelegate.m in Sources */,
+				CAB3222620924B5E008BA8A0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
